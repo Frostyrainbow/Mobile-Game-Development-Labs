@@ -9,6 +9,7 @@ public class PlayerBehavior : MonoBehaviour
     public float verticalPosition;
     public Camera camera;
     public bool usingMobileInput = false;
+    public ScoreManager sm;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,8 @@ public class PlayerBehavior : MonoBehaviour
         camera = Camera.main;
 
         usingMobileInput = Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer;
+
+        sm = FindObjectOfType<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -32,6 +35,11 @@ public class PlayerBehavior : MonoBehaviour
 
 
         Move();
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            sm.AddPoints(10);
+        }
     }
 
     public void ConventionalInput()
