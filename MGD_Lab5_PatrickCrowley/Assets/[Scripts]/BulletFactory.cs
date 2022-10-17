@@ -7,11 +7,8 @@ public class BulletFactory : MonoBehaviour
 {
 
     //Bullet Prefab
+    public Bullet[] typesOfBullets;
     public GameObject bulletPrefab;
-
-    //Sprite Textures
-    public Sprite playerBulletSprite;
-    public Sprite enemyBulletSprite;
 
     //Bullet Parent
     public Transform bulletParent;
@@ -24,9 +21,7 @@ public class BulletFactory : MonoBehaviour
 
     private void Initalize()
     {
-        playerBulletSprite = Resources.Load<Sprite>("Sprite Assets/Bullet");
-        enemyBulletSprite = Resources.Load<Sprite>("Sprite Assets/EnemySmallBullet");
-        bulletPrefab = Resources.Load<GameObject>("Prefabs/Player_Bullet");
+        bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet");
         bulletParent = GameObject.Find("BulletPool").transform;
     }
 
@@ -36,29 +31,14 @@ public class BulletFactory : MonoBehaviour
         
     }
 
-    public GameObject createBullet(BulletType type)
+    public GameObject createBullet(int arrayValue)
     {
-        GameObject bullet = Instantiate(bulletPrefab, Vector3.zero, Quaternion.identity, bulletParent);
-
-        switch (type)
-        {
-            case BulletType.PLAYER:
-                bullet = Instantiate(bulletPrefab, Vector3.zero, Quaternion.identity, bulletParent);
-                bullet.GetComponent<SpriteRenderer>().sprite = playerBulletSprite;
-                bullet.GetComponent<BulletBehavior>().SetDirection(BulletDirection.UP);
-                break;
-
-
-            case BulletType.ENEMY:
-                bullet = Instantiate(bulletPrefab, Vector3.zero, Quaternion.identity, bulletParent);
-                bullet.GetComponent<SpriteRenderer>().sprite = enemyBulletSprite;
-                bullet.GetComponent<BulletBehavior>().SetDirection(BulletDirection.DOWN);
-                bullet.transform.localRotation = Quaternion.Euler(0.0f, 0.0f, 180.0f);
-                break;
-        }
-
-        bullet.SetActive(true);
-        return bullet;
+        GameObject createdBullet = Instantiate(bulletPrefab, Vector3.zero, Quaternion.identity, bulletParent);
+        createdBullet = Instantiate(bulletPrefab, Vector3.zero, Quaternion.identity, bulletParent);
+        createdBullet.GetComponent<BulletBehavior>().bulletObject = typesOfBullets[arrayValue];
+        createdBullet.GetComponent<SpriteRenderer>().sprite = typesOfBullets[arrayValue].bulletSprite;
+        createdBullet.SetActive(false);
+        return createdBullet;
 
     }
 }

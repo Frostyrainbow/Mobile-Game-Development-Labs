@@ -4,17 +4,24 @@ using UnityEngine;
 
 public class BulletManager : MonoBehaviour
 {
-    public Queue<GameObject> bulletPool;
-    public GameObject bulletPrefab;
-    public int maxBullets = 50;
-    public int bulletCount = 0;
-    public Transform bulletParent;
-    public int activeBullets;
+    private Queue<GameObject> playerBulletPool;
+    private Queue<GameObject> enemyBulletPool;
+
+    public int playerMaxBullets = 50;
+    public int playerBulletCount = 0;
+    public int playerActiveBullets;
+    public int enemyMaxBullets = 50;
+    public int enemyBulletCount = 0;
+    public int enemyActiveBullets;
+
+    private BulletFactory factory;
     // Start is called before the first frame update
     void Start()
     {
-        bulletPool = new Queue<GameObject>();
-        BuildBulletPool();
+        playerBulletPool = new Queue<GameObject>();
+        enemyBulletPool = new Queue<GameObject>();
+        factory = GameObject.FindObjectOfType<BulletFactory>();
+        BuildBulletPools();
     }
 
     // Update is called once per frame
@@ -23,43 +30,81 @@ public class BulletManager : MonoBehaviour
         
     }
 
-    void CreateBullet()
-    {
-        var bullet = Instantiate(bulletPrefab);
-        bullet.SetActive(false);
-        bullet.transform.SetParent(bulletParent);
-        bulletPool.Enqueue(bullet);
-    }
 
-    void BuildBulletPool()
+    void BuildBulletPools()
     {
-        for (int i = 0; i < maxBullets; i++)
+        for (int i = 0; i < playerMaxBullets; i++)
         {
-            CreateBullet();
+            playerBulletPool.Enqueue(factory.createBullet(0));
         }
 
-        bulletCount = bulletPool.Count;
-    }
+        playerBulletCount = playerBulletPool.Count;
 
-    public GameObject GetBullet(Vector2 position, BulletDirection direction)
-    {
-        if (bulletPool.Count < 1)
+        for (int i = 0; i < enemyMaxBullets; i++)
         {
-            CreateBullet();
+            enemyBulletPool.Enqueue(factory.createBullet(1));
         }
 
-        var bullet = bulletPool.Dequeue();
+        enemyBulletCount = enemyBulletPool.Count;
+    }
+
+    public GameObject GetPlayerBullet(Vector2 position)
+    {
+        
+
+        GameObject bullet = null;
+        if (playerBulletPool.Count < 1)
+           {
+               playerBulletPool.Enqueue(factory.createBullet(0));
+           }
+           bullet = playerBulletPool.Dequeue();
+           playerBulletCount = playerBulletPool.Count;
+           playerActiveBullets++;
+
         bullet.SetActive(true);
         bullet.transform.position = position;
-        bullet.GetComponent<BulletBehavior>().SetDirection(direction);
-        activeBullets++;
         return bullet;
     }
 
-    public void ReturnBullet(GameObject bullet)
+    public GameObject GetEnemyBullet(Vector2 position)
+    {
+
+
+        GameObject bullet = null;
+        if (enemyBulletPool.Count < 1)
+        {
+            enemyBulletPool.Enqueue(factory.createBullet(1));
+        }
+        bullet = enemyBulletPool.Dequeue();
+        enemyBulletCount = enemyBulletPool.Count;
+        enemyActiveBullets++;
+
+        bullet.SetActive(true);
+        bullet.transform.position = position;
+        return bullet;
+    }
+
+    public void ReturnBullet(GameObject bullet, BulletType type)
     {
         bullet.SetActive(false);
-        bulletPool.Enqueue(bullet);
-        activeBullets--;
+        switch (type)
+        {
+            case BulletType.PLAYER:
+                {
+                    playerBulletPool.Enqueue(bullet);
+                    playerBulletCount = playerBulletPool.Count;
+                    playerActiveBullets--;
+
+                }
+                break;
+            case BulletType.ENEMY:
+                {
+                    enemyBulletPool.Enqueue(bullet);
+                    enemyBulletCount = playerBulletPool.Count;
+                    enemyActiveBullets--;
+                }
+                break;
+        }
+        
     }
 }
