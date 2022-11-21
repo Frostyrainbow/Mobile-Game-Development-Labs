@@ -1,0 +1,1732 @@
+fileFormatVersion: 2
+guid: 6f0bd3a850cef2646bbaa643da7acc3f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flandre_Scarlet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd2ad02a79a0d84b8f7edb09cbffd69
+      internalID: 2032327415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1e70bb6c8bcea4c86a05dcc85147da
+      internalID: 135347267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07ccb2159c614c41b1b7edbea2948b2
+      internalID: -440672627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137ec8c360778c646b9d58b98925ad69
+      internalID: -240688659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cb98889c146e445ba1c9df072c0c14
+      internalID: 1529635756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c002b7062efaf44b7327ead60da85f
+      internalID: 1691516450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f3a9cc87407a74bb6977ae8ea74215
+      internalID: -909974393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 327.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ba120f0d71bf41b4950187a93195b
+      internalID: 1282373624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deffc4ab0411f074b95758c6c25e4917
+      internalID: -2126781574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9936f7330335e8a43840a9b8d981c203
+      internalID: 1754530775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd9e600c7a1dbd46a430d3209b041bb
+      internalID: -1732771629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e17fb51c30e1445a3dab478a89696f
+      internalID: 1623065700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0944cdebc9e4e448b4e5b4827654824
+      internalID: 1048022725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d5c1e82ff6fa447935eda282481bc4
+      internalID: -1100618087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052c3fc12e62f034da2d2e491afc6f91
+      internalID: -1478518630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 287.1111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3d08c7ca24a7442b1ff7a75ccca65b
+      internalID: -1072185006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47005b027f08c6b4e8fe1ad21be507fb
+      internalID: 286949268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a36f5a8f92587d46b1dc4b48dcc5a69
+      internalID: -1032880077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 248
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478c0e88c4aed6445b4ea9fc7fa352f5
+      internalID: -1163639442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f447169238ec044bb4cd5d36f0739a
+      internalID: -1053678816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4218b70c926e4c4680762e12e882052
+      internalID: -1304964705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f703ee37f5f7b6408ad967bf104d2a9
+      internalID: 1564515141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df742c126b18844b64970b7d899365
+      internalID: -1042120754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 247.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bb8056d00be5d458f793f12250ac88
+      internalID: -1741152975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7558d5870a70d874dad0c1798cfdc20e
+      internalID: -1662706510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cb36ffdecbfab4b98421151912b7f8
+      internalID: -2090198179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cdd4bbb7bec2149a340dc9470e97c7
+      internalID: 1457463150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a6e02240109754484842180ddcfc51
+      internalID: -1069104637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe17561c80d31d545aac02cad1574a83
+      internalID: 262327839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29343a52d050d604e89365c5e41a9003
+      internalID: -1746629249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea8a59c92a19b04581e9e5312b21ca8
+      internalID: -1545543575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 207.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05de3ad3e67e824a90b650aedc65e6b
+      internalID: 1133516689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9cc1e7c48db064988ace0a53dc7089
+      internalID: 1968150570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb94c7950089c498b23115c2ad923d
+      internalID: -1844406940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22ee89d2770df24b836d55aa8fdd5ec
+      internalID: -1085186343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e205c624af27a114aa4fa63865226949
+      internalID: -961898680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39c208d35570d347b1804e75d5aeec9
+      internalID: 2028309540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57eb516b06502214a81cbdc21dc98ed9
+      internalID: -1083906374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50410fc2678bc6748a33fcf9108be0ec
+      internalID: 1379671686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 167.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5e0b80a67dbfb4398e6b028ae38f0d
+      internalID: 1188608356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f63eeac110b16d4cbcdbba05f830085
+      internalID: 1702638108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5412fb5fb72375b4886b40c86ffcd8af
+      internalID: -1149584764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77538d0bb562ed468313dd8c8ce914b
+      internalID: -328811130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fb2b6a8abbf814eb9da8b11c3c1715
+      internalID: 1144971231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b293a735c822d40b27815183e4f11b
+      internalID: -48432141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d93d4f9432d9554e83552a18776d107
+      internalID: 1767018945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275de503969d9c342996ee6d0a154590
+      internalID: -1671647887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 127.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7620b6db2fe8b4fabffb2603bcf6d3
+      internalID: 1009734352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bcdbde68be08b4698c1c5e7fe664b5
+      internalID: -1160608834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdb68ed170fce14ca8f332945a2dc13
+      internalID: 349733987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5833c9ece4d557147aa61babfb0b3eb0
+      internalID: -1482649045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179ddf214612bb14f8525d895e45d256
+      internalID: 1889708263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a4eae473a1a6d419addee6ecd6692a
+      internalID: -1995388772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01f9e499d8045247ab82966d8e9fd8a
+      internalID: 1431003961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30cb87d4b0e904da7e91396e6376f0
+      internalID: -276829954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 87.111115
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32114fd90e21db642873114817dce4e8
+      internalID: -909484332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70c6d56e2a7fdc4cbcd01a9942b4358
+      internalID: 498460377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ae15a09803190458fdff4f8c7a0b94
+      internalID: -185558654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cac29a713a1d64fb203205d2c8da7a
+      internalID: -1398665617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dabcd72690408f44a5338a71ce3a5f3
+      internalID: 833870883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e4f0a8f3291744cac0787ce26f40c7
+      internalID: 1036332760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1230ed68cf7f2643bbe5c1d66cbedf9
+      internalID: 1082674010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb58cd73050e30d4b8f2d3bc6bfa3e71
+      internalID: -154690946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 47.11111
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefdf4c25a23aa64f8cff16863b7a5a2
+      internalID: -933419724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805bcfc8048ab6b4c9724bc41b44d551
+      internalID: -938546891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217d860b4f64d224587d4b3c9f49d3a0
+      internalID: 1370815838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64d652074279b4eb0dbbb791e995e0
+      internalID: -492028564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2312a98c55de7bc408cd2d8d8185a777
+      internalID: -612786001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072b2aec12c6ed14bb505f5d3dd68cba
+      internalID: -1819099651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aae8777df2d5d4eae6a0fcb3486555
+      internalID: 356506642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef4f242d75147044a703ef31e110a8d
+      internalID: 82109823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flandre_Scarlet_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 7.1111107
+        width: 32
+        height: 40.88889
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90312ec30d376624aa4c91d21a2f65ae
+      internalID: -1904326546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Flandre_Scarlet_2: -440672627
+      Flandre_Scarlet_48: -1160608834
+      Flandre_Scarlet_25: -2090198179
+      Flandre_Scarlet_40: 1702638108
+      Flandre_Scarlet_22: -1042120754
+      Flandre_Scarlet_57: -185558654
+      Flandre_Scarlet_51: 1889708263
+      Flandre_Scarlet_52: -1995388772
+      Flandre_Scarlet_3: -240688659
+      Flandre_Scarlet_18: -1163639442
+      Flandre_Scarlet_63: -933419724
+      Flandre_Scarlet_12: 1048022725
+      Flandre_Scarlet_59: 833870883
+      Flandre_Scarlet_66: -492028564
+      Flandre_Scarlet_69: 356506642
+      Flandre_Scarlet_6: -909974393
+      Flandre_Scarlet_9: 1754530775
+      Flandre_Scarlet_36: 2028309540
+      Flandre_Scarlet_24: -1662706510
+      Flandre_Scarlet_38: 1379671686
+      Flandre_Scarlet_42: -328811130
+      Flandre_Scarlet_46: -1671647887
+      Flandre_Scarlet_65: 1370815838
+      Flandre_Scarlet_5: 1691516450
+      Flandre_Scarlet_53: 1431003961
+      Flandre_Scarlet_34: -1085186343
+      Flandre_Scarlet_28: 262327839
+      Flandre_Scarlet_20: -1304964705
+      Flandre_Scarlet_70: 82109823
+      Flandre_Scarlet_71: -1904326546
+      Flandre_Scarlet_21: 1564515141
+      Flandre_Scarlet_0: 2032327415
+      Flandre_Scarlet_62: -154690946
+      Flandre_Scarlet_27: -1069104637
+      Flandre_Scarlet_1: 135347267
+      Flandre_Scarlet_45: 1767018945
+      Flandre_Scarlet_10: -1732771629
+      Flandre_Scarlet_29: -1746629249
+      Flandre_Scarlet_30: -1545543575
+      Flandre_Scarlet_47: 1009734352
+      Flandre_Scarlet_55: -909484332
+      Flandre_Scarlet_13: -1100618087
+      Flandre_Scarlet_4: 1529635756
+      Flandre_Scarlet_37: -1083906374
+      Flandre_Scarlet_16: 286949268
+      Flandre_Scarlet_26: 1457463150
+      Flandre_Scarlet_31: 1133516689
+      Flandre_Scarlet_14: -1478518630
+      Flandre_Scarlet_11: 1623065700
+      Flandre_Scarlet_64: -938546891
+      Flandre_Scarlet_15: -1072185006
+      Flandre_Scarlet_58: -1398665617
+      Flandre_Scarlet_60: 1036332760
+      Flandre_Scarlet_49: 349733987
+      Flandre_Scarlet_67: -612786001
+      Flandre_Scarlet_50: -1482649045
+      Flandre_Scarlet_32: 1968150570
+      Flandre_Scarlet_41: -1149584764
+      Flandre_Scarlet_35: -961898680
+      Flandre_Scarlet_39: 1188608356
+      Flandre_Scarlet_8: -2126781574
+      Flandre_Scarlet_43: 1144971231
+      Flandre_Scarlet_19: -1053678816
+      Flandre_Scarlet_61: 1082674010
+      Flandre_Scarlet_17: -1032880077
+      Flandre_Scarlet_33: -1844406940
+      Flandre_Scarlet_44: -48432141
+      Flandre_Scarlet_23: -1741152975
+      Flandre_Scarlet_68: -1819099651
+      Flandre_Scarlet_7: 1282373624
+      Flandre_Scarlet_54: -276829954
+      Flandre_Scarlet_56: 498460377
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
